@@ -1,4 +1,5 @@
 body{
-background-image: URL("donut2.jpg");
+background-image: URL("donut1.jpg");
   background-color: orange;
+  background-repeat: no-repeat;
 }

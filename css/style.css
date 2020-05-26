@@ -1,6 +1,6 @@
 body{
 background-image: URL("donut1.jpg");
   background-color: orange;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   height: 100%;
 }

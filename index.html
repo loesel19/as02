@@ -1,15 +1,15 @@
 <html>
   <head>
-    <link rel="stylesheet" type="text/css" href="CSS.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <style>
       p1{
-        color: blue; font-size: 20px;
+        color: blue; font-size: 20px; position: absolute; left: 25px; top 30px;
       }
       h1{
-        color: black: font-size: 28px;
+        color: black: font-size: 28px; -webkit-text-stroke: 2px black; position:relative; left:15px; bottom: 5px; top: 5px;
       }
       .cool{
-        font-size: 20px; color: darkblue; background-color: linen;
+        font-size: 20px; color: darkblue; background-color: linen; display:inline;
       }
       #finalPara{
         color:red; font-size: 20px; background-color: linen;
@@ -21,7 +21,22 @@
       p.inlineB{display: inline-block;}
       }
         
-<h1 style="color: lightblue;  text-shadow: 0 1px 0 black, 0 -1px 0 black, 1px 0 0 black, -1px 0 0 black; font-size: 20px;> Welcome to Dizzy Donuts!</h1>
+<h2 style="color: lightblue;  text-shadow: 0 1px 0 black, 0 -1px 0 black, 1px 0 0 black, -1px 0 0 black; font-size: 20px; position: sticky;> Welcome to Dizzy <p class="block">Donuts!</p> The best donut shop in town</h2>
            </head>
   <body>
       <p2 style="color: lightblue;  text-shadow: 0 1px 0 black, 0 -1px 0 black, 1px 0 0 black, -1px 0 0 black; font-size: 20px> Our donuts are made fresh every morning!</p2>
+      <div>
+      <img src="donut2.jpg" width="400" height="400" style{align:center; display:block;}>
+      </div>
+      <p1> Don't these <p class="inline">donuts</p> look delicious?</p1>
+      <br>
+      <h1>We also do specialty <p class="none">donut</p> orders.</h1>
+      <div>
+      <img src="special.jpg" width="400" height="400">
+      </div>
+      <p1> At Dizzy <p class="inlineB"> Donuts </p>you can order any <p class=none>donut</p> that you can think of</p1>
+      <div id="finalPara">
+      <p1>Please come to 1234 semmler st. or call 989-123-4567 for the best <p class="cool">Donut</p> money can buy</p1>
+      <img src="special2.jpg" height="400" width="400">
+      </div>
+      
